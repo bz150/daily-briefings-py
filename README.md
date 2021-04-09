@@ -72,7 +72,7 @@ python -m app.daily_briefing
 # in production mode:
 APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_briefing
 ```
-
+>NOTE: the APP_ENV production mode allows it to run on the remote server without any user input
 
 ## Testing
 
