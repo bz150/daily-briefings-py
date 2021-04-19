@@ -75,11 +75,12 @@ APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_brie
 ```
 >NOTE: the APP_ENV production mode allows it to run on the remote server without any user input
 
-### Web App
+## Running the Web App
 
-# mac:
+### Mac:
 `FLASK_APP=web_app flask run`
-# windows:
+
+### windows:
 ```
 export FLASK_APP=web_app
 flask run
