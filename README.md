@@ -80,7 +80,7 @@ APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_brie
 ### Mac:
 `FLASK_APP=web_app flask run`
 
-### windows:
+### Windows:
 ```
 export FLASK_APP=web_app
 flask run
