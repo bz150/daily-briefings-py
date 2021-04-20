@@ -10,9 +10,10 @@
     <!-- TODO: consider using a table instead of a list -->
     <!-- TODO: consider adding images using the provided icon urls -->
     <ul>
-    {% for forecast in results["hourly_forecasts"] %}
-        <li>{{ forecast["timestamp"] }} | {{ forecast["temp"] }} | {{ forecast["conditions"].upper() }}</li>
-    {% endfor %}
+        {% for forecast in results["hourly_forecasts"] %}
+            <li>{{ forecast["timestamp"] }} | {{ forecast["temp"] }} | {{ forecast["conditions"].upper() }}</li>
+            <img src={{ forecast["image_url"] }} alt="weather icon">
+        {% endfor %}
     </ul>
 
 {% endblock %}
